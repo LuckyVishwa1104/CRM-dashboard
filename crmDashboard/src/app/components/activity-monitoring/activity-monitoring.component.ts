@@ -6,7 +6,6 @@ import { ActivityService } from '../../services/activity.service';
   templateUrl: './activity-monitoring.component.html',
   styleUrls: ['./activity-monitoring.component.css']
 })
-
 export class ActivityMonitoringComponent implements OnInit {
   activities: any[] = [];
 

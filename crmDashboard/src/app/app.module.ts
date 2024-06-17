@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
-
+import { CommonModule } from '@angular/common';
+import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { ProjectMonitoringComponent } from './components/project-monitoring/project-monitoring.component';
@@ -18,6 +19,7 @@ import { UserManagementComponent } from './components/user-management/user-manag
   imports: [
     BrowserModule,
     AppRoutingModule,
+    CommonModule,
     HttpClientModule
   ],
   providers: [],

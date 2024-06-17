@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ProjectService } from '../../services/project.service';
-
+import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-project-monitoring',
   templateUrl: './project-monitoring.component.html',
