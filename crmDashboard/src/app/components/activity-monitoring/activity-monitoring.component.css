@@ -1,0 +1,17 @@
+.activity-monitoring-container {
+  padding: 20px;
+}
+
+.activity-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.activity-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,12 @@
+<div class="project-monitoring-container">
+  <h2>Project Monitoring</h2>
+  <div class="project-list">
+    <div class="project-card" *ngFor="let project of projects">
+      <h3>{{ project.name }}</h3>
+      <p>Status: {{ project.status }}</p>
+      <p>Start Date: {{ project.startDate | date }}</p>
+      <p>End Date: {{ project.endDate | date }}</p>
+      <p>Progress: {{ project.progress }}%</p>
+    </div>
+  </div>
+</div>

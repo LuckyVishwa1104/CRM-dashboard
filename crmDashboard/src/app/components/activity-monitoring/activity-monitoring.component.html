@@ -1,0 +1,11 @@
+<div class="activity-monitoring-container">
+  <h2>Activity Monitoring</h2>
+  <div class="activity-list">
+    <div class="activity-card" *ngFor="let activity of activities">
+      <h3>{{ activity.name }}</h3>
+      <p>Description: {{ activity.description }}</p>
+      <p>Date: {{ activity.date | date }}</p>
+      <p>Status: {{ activity.status }}</p>
+    </div>
+  </div>
+</div>

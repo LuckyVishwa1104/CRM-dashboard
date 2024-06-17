@@ -1,0 +1,17 @@
+.user-management-container {
+  padding: 20px;
+}
+
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.user-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
